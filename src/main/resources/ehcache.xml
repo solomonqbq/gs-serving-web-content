@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+    <diskStore path="c:/Tmp_EhCache" />
+    <defaultCache eternal="true" maxElementsInMemory="1000" overflowToDisk="true" diskPersistent="true"
+                  timeToIdleSeconds="0" timeToLiveSeconds="600" memoryStoreEvictionPolicy="LRU" />
+    <cache name="p" eternal="true" maxElementsInMemory="0" overflowToDisk="true" diskPersistent="true"
+                  timeToIdleSeconds="0" timeToLiveSeconds="0" memoryStoreEvictionPolicy="LRU" />
+</ehcache>
